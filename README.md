@@ -1,5 +1,5 @@
 # alita-counter
-A simple bot to counter Alita Discord's bot abilities in a word chain game
+A simple bot to counter Alita Discord's bot in a word chain game
 
 # Motivation
 In the past few days, I spent quite a lot of time playing a word chain game with friends using Alita bot on Discord. However, I often lose either to my friends or to the bot itself, due to a lack of vocabulary and a bad check mate strategy. Therefore, I created this bot called AlitaCounter. 
