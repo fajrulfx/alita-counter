@@ -8,3 +8,6 @@ In the past few days, I spent quite a lot of time playing a word chain game with
 - AlitaCounter uses 35,970 data from the Indonesian dictionary (KBBI) to enrich vocabulary
 - AlitaCounter equipped with a continuously improved checkmate strategy (i.e. choosing words with endings that rarely become word prefixes). Hence, every time AlitaCounter loses because of checkmate, it will learn and apply the checkmate data into the next game.
 
+# Tech
+- Python 3
+- Libraries: `discord.py` and `pandas`
