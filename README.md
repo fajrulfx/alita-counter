@@ -11,3 +11,4 @@ In the past few days, I spent quite a lot of time playing a word chain game with
 # Tech
 - Python 3
 - Libraries: `discord.py` and `pandas`
+- KBBI data from (kbbi-data-source)[https://github.com/misterabdul/kbbi-data-source]
