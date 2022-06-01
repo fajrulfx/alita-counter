@@ -15,7 +15,7 @@ def add_skak_database(word):
     else:
         if word != 'undefined':
             skaklist.append(word)
-            pd.DataFrame(skaklist, columns=['kata']).to_csv('skak.csv', index=False)
+            pd.DataFrame(skaklist, columns=['kata']).to_csv('checkmate.csv', index=False)
 
 def database_check(kata, used=[''], addskak=True):
     try:
@@ -83,7 +83,7 @@ class MyClient(discord.Client):
 
         if message.content == '!counter':
             used_word = []
-            skaklist = pd.read_csv('skak.csv')['kata'].tolist()
+            skaklist = pd.read_csv('checkmate.csv')['kata'].tolist()
             skak = tuple(skaklist)
             await message.channel.send('join')
 
@@ -95,9 +95,7 @@ class MyClient(discord.Client):
         
         if message.content == 'Roll point sudah habis!' and name_old == int(981332425831481354):
             await message.channel.send('giveup')
-
-
-
+            
         name_old = name_now
 
 client = MyClient()
